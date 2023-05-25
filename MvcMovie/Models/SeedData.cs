@@ -47,6 +47,13 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("12-05-2007"),
                     Genre = "Drama",
                     Price = 12M
+                },
+                new Movie
+                {
+                    Title = "Pulp Fiction",
+                    ReleaseDate = DateTime.Parse("10-14-1994"),
+                    Genre = "Drama",
+                    Price = 14M
                 }
             );
             context.SaveChanges();
