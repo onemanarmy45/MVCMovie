@@ -25,6 +25,7 @@ public static class SeedData
                     Title = "A Beautiful Mind",
                     ReleaseDate = DateTime.Parse("12-13-2001"),
                     Genre = "Drama",
+                    Rating = "R",
                     Price = 14M
                 },
                 new Movie
@@ -32,6 +33,7 @@ public static class SeedData
                     Title = "Ferris Bueller's Day Off",
                     ReleaseDate = DateTime.Parse("06-11-1986"),
                     Genre = "Comedy",
+                    Rating = "XXX",
                     Price = 14M
                 },
                 new Movie
@@ -39,6 +41,7 @@ public static class SeedData
                     Title = "Zodiac",
                     ReleaseDate = DateTime.Parse("03-02-2007"),
                     Genre = "Thriller",
+                    Rating = "PG",
                     Price = 12M
                 },
                 new Movie
@@ -46,14 +49,8 @@ public static class SeedData
                     Title = "Juno",
                     ReleaseDate = DateTime.Parse("12-05-2007"),
                     Genre = "Drama",
+                    Rating = "R",
                     Price = 12M
-                },
-                new Movie
-                {
-                    Title = "Pulp Fiction",
-                    ReleaseDate = DateTime.Parse("10-14-1994"),
-                    Genre = "Drama",
-                    Price = 14M
                 }
             );
             context.SaveChanges();
